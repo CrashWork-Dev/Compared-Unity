@@ -1,4 +1,6 @@
 # Compared
 合成大西瓜复刻
 
-![工厂设计试吃](https://s2.loli.net/2023/12/03/rMo5mXsOzkRjClT.png)
+![设计模式试吃](https://raw.githubusercontent.com/CrashWork-Dev/Compared/main/Assets/Assets/Image/local.png)
+
+中介者模式+工厂模式
