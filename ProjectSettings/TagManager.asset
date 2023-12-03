@@ -8,6 +8,10 @@ TagManager:
   - Sender
   - Factory
   - RedLine
+  - Pool
+  - Logic
+  - Score
+  - End
   layers:
   - Default
   - TransparentFX
@@ -50,4 +54,7 @@ TagManager:
     locked: 0
   - name: Sprite
     uniqueID: 1702577201
+    locked: 0
+  - name: UI
+    uniqueID: 2918224033
     locked: 0

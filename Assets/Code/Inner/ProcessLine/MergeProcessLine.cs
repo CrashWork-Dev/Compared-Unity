@@ -1,6 +1,7 @@
 using UnityEngine;
 using Code.Inner.Factory;
 using Code.Client.Item;
+using Code.Inner.Sender;
 
 namespace Code.Inner.ProcessLine
 {
@@ -18,6 +19,7 @@ namespace Code.Inner.ProcessLine
                 var newPosition = (collision2D.gameObject.transform.position + self.transform.position) / 2;
                 DestroyProcessLine.Destroy(self.gameObject, collision2D.gameObject);
                 CircleFactory.Init(self.next, newPosition);
+                ScoreSender.StoreScore(self.score);
                 Fruit.Half = false;
             }
         }
